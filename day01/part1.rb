@@ -26,3 +26,5 @@ puts get_total(input)
 #   where n is the size of the list
 #   and m is theeee index of the first found number i guess
 # space complexity: O(n) bc i read the whole file in
+# optimizations: this is already an improved version of the O(n^2) brute force,
+#   I can't think of any further optimizations

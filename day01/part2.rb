@@ -42,3 +42,8 @@ puts get_total(input)
 #   and x is the difference between the indices of the first and second found numbers
 #     (it could be like "n - x where x > m" but w/e)
 # space complexity: O(n) bc i read the whole file in
+# optimizations: this could maybe be done with recursion, but I'm not sure that
+#   there would be any improvement in time complexity and also nobody wants that
+#   some time could be saved at the cost of space complexity by if you
+#   cached the values of the nested loops and stopped to check for them ahead of time
+#   actually that might get you to O(n) lol now I want to try it
